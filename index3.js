@@ -11,7 +11,6 @@ function logger(req, res, next){
 }
 app.use(logger);
 
-
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
